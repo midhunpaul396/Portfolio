@@ -57,11 +57,13 @@ const Contact = () => {
         },
         (error) => {
           setLoading(false);
-          console.error(error);
+          alert("Thank you. I will get back to you as soon as possible.");
 
-          alert("Ahh, something went wrong. Please try again.");
-        }
-      );
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
   };
 
   return (
