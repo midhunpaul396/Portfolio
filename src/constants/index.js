@@ -47,11 +47,11 @@ import {
   const services = [
 
     {
-      title: "Software Developer",
+      title: "Data Engineer",
       icon: web,
     },
     {
-      title: "Full Stack Engineer",
+      title: "Backend Developer",
       icon: mobile,
     },
     {
@@ -132,18 +132,18 @@ import {
         
       ],
     },
-    {
-      title: "Full Stack Engineer",
-      company_name: "Qburst",
+        {
+      title: "Data Engineer",
+      company_name: "QBurst",
       icon: qburst,
       iconBg: "#383E56",
       date: "August 2021 - December 2022",
       points: [
-        "Contributed to the development of full-stack solutions across multiple client projects, specializing in e-commerce platforms.",
-        "Worked extensively with front-end technologies like React.js and Vue.js, alongside back-end frameworks such as Laravel and Python.",
-        "Designed and developed scalable, high-performance applications, focusing on optimizing user experiences and streamlining business operations. Enhanced e-commerce solutions by integrating third-party APIs, managing databases, and implementing secure payment gateways.",
-        "Collaborated with cross-functional teams in an Agile setting, utilizing Git for version control and CI/CD practices for efficient, reliable deployments.",
-        
+        "Designed and implemented scalable ETL pipelines and data processing workflows using tools such as HiveQL and Python.",
+        "Built an invoice spend tracking system within the Operational Data Layer, enabling real-time deal visibility through Hive-based data models.",
+        "Developed and optimized interactive Tableau dashboards to visualize partner-level and buyer-level spending patterns, focusing on top spenders and enrollment trends.",
+        "Automated error classification and volume forecasting reports using advanced Excel, significantly improving break management efficiency.",
+        "Collaborated with cross-functional teams to deliver ad-hoc data reports, ensure testing accuracy, and provide insights for strategic business decisions."
       ],
     },
     {
@@ -189,12 +189,12 @@ import {
   
   const projects = [
     {
-      name: "Adastria",
+      name: "Savi Visibility",
       description:
-        "Leveraged front-end technologies like Vue.js and React.js to create dynamic, responsive user interfaces and used back-end frameworks such as Laravel and Python for building scalable, high-performance applications. Enhanced the platform by integrating third-party APIs, managing MySQL databases, and implementing secure payment gateways.",
+        "Savi Visibility, a real-time supply chain platform, integrating data from diverse sources such as sensors, GPS, and EDI into a unified backend system. Designed and maintained ETL pipelines using Python and SQL to transform and load logistics data into downstream reporting and analytics tools. Developed real-time data processing solutions using Spark Streaming, Kafka, and Cassandra to support critical logistics KPIs, including shipment ETA, average transit time, and percentage of late shipments.",
       tags: [
         {
-          name: "Laravel",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
