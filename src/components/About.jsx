@@ -47,10 +47,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a dynamic full stack developer with a strong proficiency in both software development and data analysis.
-        With expertise in front-end technologies such as React.js, HTML5, CSS, and back-end frameworks like Node.js
-        and Laravel, I build responsive and scalable web applications. I have experience creating seamless user interfaces
-        and robust server-side logic while ensuring cross-platform compatibility and performance optimization.
+        I am a dynamic data engineer with strong proficiency in building scalable, efficient data pipelines and managing large-scale data infrastructure.
+        With expertise in data processing frameworks like Apache Spark, Kafka, and Hadoop, along with experience in SQL and NoSQL databases such as Cassandra and MongoDB,
+        I design and implement robust ETL workflows, ensure data quality and integrity, and optimize performance for real-time and batch data systems.
+        I am passionate about enabling data-driven decision-making through clean, reliable, and accessible data architecture.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
